@@ -4,9 +4,9 @@ import { UiKitModule } from '@/shared/ui/ui-kit.module';
 
 @Component({
   selector: 'app-home',
+  standalone: true,
+  imports: [UiKitModule],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
-  imports: [UiKitModule],
-  standalone: true,
 })
 export class HomeComponent {}
