@@ -1,0 +1,32 @@
+.header-top {
+  padding: 12px 0;
+  color: #fff;
+  background-color: var(--color-dark-grey);
+}
+
+.header-top__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.city-button {
+  color: #fff;
+}
+
+.city-button__text {
+  margin-left: 8px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.nav-item__link--active {
+  color: var(--color-yellow);
+}

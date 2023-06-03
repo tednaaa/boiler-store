@@ -1,11 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { routeNames } from '@/shared/config/routes';
-
 const routes: Routes = [
   {
-    path: routeNames.HOME,
+    path: '',
     loadComponent: () =>
       import('./home/home.component').then((m) => m.HomeComponent),
   },
